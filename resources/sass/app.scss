@@ -29,7 +29,7 @@ html{
             justify-content: center;
             align-items:center;
 
-            @media screen and (max-width: 380px) {
+            @media screen and (max-width: 480px) {
                 height: 55%;
             }
 
@@ -39,16 +39,16 @@ html{
                     display: block;
                     margin: 30px auto;
 
-                    @media screen and (max-width: 380px) {
+                    @media screen and (max-width: 480px) {
                         max-width: 60px;
                     }
                 }
                 .logo{
-                    max-width: 600px;
+                    max-width: 480px;
                     display: block;
                     margin: 30px auto;
 
-                    @media screen and (max-width: 380px) {
+                    @media screen and (max-width: 480px) {
                         max-width: 320px;
                     }
                 }
@@ -57,7 +57,7 @@ html{
                     display: block;
                     margin: 30px auto;
 
-                    @media screen and (max-width: 380px) {
+                    @media screen and (max-width: 480px) {
                         max-width: 220px;
                     }
                 }
@@ -70,7 +70,7 @@ html{
             padding: 20px auto !important;
             overflow: auto;
 
-            @media screen and (max-width: 380px) {
+            @media screen and (max-width: 480px) {
                 height: 45%;
             }
 

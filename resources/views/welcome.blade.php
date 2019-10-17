@@ -23,6 +23,16 @@
                 <div class="col-sm-8 offset-sm-2">
                     <form method="POST" action="{{action('HomeController@send')}}">
                         @csrf
+                        @if ($message = Session::get('success'))
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="alert alert-light alert-block">
+                                    <button type="button" class="close" data-dismiss="alert">×</button>
+                                    <strong>{{ $message }}</strong>
+                                </div>
+                            </div>
+                        </div>
+                        @endif
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="form-group">
@@ -54,7 +64,7 @@
                                     <textarea name="message" id="" cols="30" rows="4" placeholder="Mensaje" class="form-control @error('message') is-invalid @enderror"></textarea>
                                 </div>
                             </div>
-                            <div class="col-sm-2 offset-sm-10">
+                            <div class="col-sm-4 offset-sm-8 col-md-2 offset-md-10">
                                 <div class="form-group">
                                     <button type="submit" class="btn text-uppercase btn-block">Enviar</button>
                                 </div>

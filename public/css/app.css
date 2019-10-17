@@ -10668,7 +10668,7 @@ html body .first {
   align-items: center;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 480px) {
   html body .first {
     height: 55%;
   }
@@ -10680,19 +10680,19 @@ html body .first .container .logo-gears {
   margin: 30px auto;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 480px) {
   html body .first .container .logo-gears {
     max-width: 60px;
   }
 }
 
 html body .first .container .logo {
-  max-width: 600px;
+  max-width: 480px;
   display: block;
   margin: 30px auto;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 480px) {
   html body .first .container .logo {
     max-width: 320px;
   }
@@ -10704,7 +10704,7 @@ html body .first .container .logo-frase {
   margin: 30px auto;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 480px) {
   html body .first .container .logo-frase {
     max-width: 220px;
   }
@@ -10718,7 +10718,7 @@ html body .footer {
   overflow: auto;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 480px) {
   html body .footer {
     height: 45%;
   }
