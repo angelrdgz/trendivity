@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
     <title>Trendivity</title>
 </head>
 
 <body>
     <div class="first">
         <div class="container">
-            <img src="{{ asset('imgs/icon_gears.png') }}" class="logo-gears" alt="">
-            <img src="{{ asset('imgs/logo.png') }}" class="logo" alt="">
-            <img src="{{ asset('imgs/frase.png') }}" class="logo-frase" alt="">
+            <img src="{{ secure_asset('imgs/icon_gears.png') }}" class="logo-gears" alt="">
+            <img src="{{ secure_asset('imgs/logo.png') }}" class="logo" alt="">
+            <img src="{{ secure_asset('imgs/frase.png') }}" class="logo-frase" alt="">
         </div>
     </div>
     <div class="footer">
